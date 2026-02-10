@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-r
 import { isConnected, requestAccess, signTransaction } from "@stellar/freighter-api";
 import axios from 'axios';
 import * as StellarSdk from 'stellar-sdk';
-import './App.css'; // Tasarımı dahil ettik
+import './App.css';
 
-// 1. Landing Sayfası
 function Landing() {
   const [walletAddress, setWalletAddress] = useState(null);
 
@@ -51,7 +50,6 @@ function Landing() {
   );
 }
 
-// 2. Vouch Sayfası
 function VouchPage() {
   const { stellarAddress } = useParams();
   const [status, setStatus] = useState("");
@@ -117,7 +115,6 @@ function VouchPage() {
   );
 }
 
-// 3. Profil Sayfası
 function ProfilePage() {
   const { stellarAddress } = useParams();
   const [data, setData] = useState(null);

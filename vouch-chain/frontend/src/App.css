@@ -1,8 +1,7 @@
-/* App.css - Modern Dark Theme */
 body {
   margin: 0;
   padding: 0;
-  background-color: #0d1117; /* GitHub Dark arka planı */
+  background-color: #0d1117; 
   color: #c9d1d9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
@@ -19,7 +18,6 @@ body {
   text-align: center;
 }
 
-/* Kart Tasarımı */
 .card {
   background: #161b22;
   border: 1px solid #30363d;
@@ -36,10 +34,9 @@ h1 {
 }
 
 h2 {
-  color: #58a6ff; /* Mavi başlık */
+  color: #58a6ff; 
 }
 
-/* Skor Dairesi */
 .score-circle {
   width: 120px;
   height: 120px;
@@ -56,7 +53,7 @@ h2 {
   box-shadow: 0 0 15px rgba(46, 160, 67, 0.5);
 }
 
-/* Butonlar */
+
 button {
   background-color: #238636; /* Yeşil buton */
   color: white;
@@ -86,7 +83,6 @@ button.secondary:hover {
   color: #fff;
 }
 
-/* Adres Kutusu */
 .address-box {
   background: #0d1117;
   padding: 10px;
@@ -98,7 +94,7 @@ button.secondary:hover {
   word-break: break-all;
 }
 
-/* Liste */
+
 ul {
   list-style: none;
   padding: 0;
